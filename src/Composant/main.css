@@ -1,0 +1,89 @@
+.Main{
+    max-height: 50vh;
+    margin-bottom: 50px;
+}
+.MainContent{
+    color: white;
+    display: flex;
+    padding: 20px;
+    border: 1px solid white;
+}
+.PunkHighligh{
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.PunkContainer{
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+}
+.SelectedPunk{
+    object-fit: contain;
+    max-width: min(30vw, 40vh);
+    max-height: 30vw;
+}
+.PunkDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+}
+.title{
+    font-size: 72px;
+    font-weight: 800;
+}
+.ItemNumber{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a1a2b0;
+    font-size: 60px;
+    align-self: center;
+}
+.Owner{
+    display: flex;
+    margin: 10px 0;
+    height: 50px;
+}
+.Owner > div{
+    margin: 0 5px;
+}
+.OwnerImageContainer{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.OwnerImageContainer > img{
+    height: 100%;
+    width: 100%;
+}
+.OwnerDetails{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.OwnerNameAndAdresse{
+    flex: 1;
+}
+.OwnerName{
+    color: #00ebfe;
+    cursor: pointer;
+}
+.OwnerLink{
+    padding: 12px;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+.OwnerLink > img{
+    height: 100%;
+    width: 100%;
+}
